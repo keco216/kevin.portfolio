@@ -47,3 +47,6 @@ next-env.d.ts
 SESSION_HANDOFF.md
 CLAUDE.md
 AGENTS.md
+
+.vercel
+.env*

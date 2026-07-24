@@ -2,6 +2,8 @@
 
 Persönliche Portfolio-Website von Kevin Colic, IT-Techniker und Software-Entwickler aus Österreich — mit Fokus auf Self-Hosting, Infrastruktur und eigene Tools.
 
+**Live:** <https://kevincolic.vercel.app>
+
 ![Vorschau der Portfolio-Website](docs/preview.jpg)
 
 ## Tech-Stack

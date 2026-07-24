@@ -21,9 +21,28 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://kevincolic.vercel.app"),
   title: "Kevin Colic — IT-Techniker & Software Developer",
   description:
     "Portfolio von Kevin Colic: IT-Techniker und Software-Entwickler mit Fokus auf Self-Hosting, Infrastruktur und eigene Tools.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Kevin Colic — IT-Techniker & Software Developer",
+    description:
+      "Self-Hosting, Infrastruktur und saubere Tools — Portfolio von Kevin Colic aus Österreich.",
+    url: "/",
+    siteName: "Kevin Colic",
+    locale: "de_AT",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Kevin Colic — IT-Techniker & Software Developer",
+    description:
+      "Self-Hosting, Infrastruktur und saubere Tools — Portfolio von Kevin Colic aus Österreich.",
+  },
 };
 
 export default function RootLayout({
